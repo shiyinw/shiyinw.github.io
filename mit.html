@@ -1,30 +1,24 @@
 <div id="ajax-page" class="ajax-page-content">
     <div class="ajax-page-wrapper">
         <div class="ajax-page-nav">
-            <div class="nav-item ajax-page-prev-next">
-                <a class="ajax-page-load" href="mit.html"><i class="zmdi zmdi-chevron-left"></i></a>
-                <a class="ajax-page-load" href="mit.html"><i class="zmdi zmdi-chevron-right"></i></a>
-            </div>
+            <!--<div class="nav-item ajax-page-prev-next">-->
+                <!--<a class="ajax-page-load" href="mit.html"><i class="zmdi zmdi-chevron-left"></i></a>-->
+                <!--<a class="ajax-page-load" href="mit.html"><i class="zmdi zmdi-chevron-right"></i></a>-->
+            <!--</div>-->
             <div class="nav-item ajax-page-close-button">
                 <a id="ajax-page-close-button" href="#"><i class="zmdi zmdi-close"></i></a>
             </div>
         </div>
 
         <div class="ajax-page-title">
-            <h1>Portfolio Project 5</h1>
+            <h1>Disentangle Private Information from Edge-Cloud Training</h1>
         </div>
 
         <div class="row">
             <div class="col-sm-7 col-md-7 portfolio-block">
                 <div class="owl-carousel portfolio-page-carousel">
                     <div class="item">
-                        <img src="images/portfolio/full/5.jpg" alt="" />
-                    </div>
-                    <div class="item">
-                        <img src="images/portfolio/full/6.jpg" alt="" />
-                    </div>
-                    <div class="item">
-                        <img src="images/portfolio/full/7.jpg" alt="" />
+                        <img src="research/mit/1.png" alt="" />
                     </div>
                 </div>
 
@@ -57,25 +51,25 @@
                     <h3>Description</h3>
                 </div>
                 <ul class="project-general-info">
-                    <li><p><i class="fa fa-user"></i>Shiyin Wang</p></li>
-                    <li><p><i class="fa fa-globe"></i> <a href="#" target="_blank">www.project-site.com</a></p></li>
-                    <li><p><i class="fa fa-calendar"></i>2019 Feb ~ May</p></li>
+                    <li><p><i class="fa fa-user"></i>Shiyin Wang and Song Han</p></li>
+                    <li><p><i class="fa fa-map"></i>6.100 Independent Project, HanLab, Massachusetts Institute of Technology</p></li>
+                    <!--<li><p><i class="fa fa-globe"></i> <a href="#" target="_blank">www.project-site.com</a></p></li>-->
+                    <li><p><i class="fa fa-calendar"></i>2019 Feb ~ 2019 May</p></li>
                 </ul>
 
-                <p class="text-justify">Aliquam euismod aliquam massa, quis eleifend dui sodales vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                <br class="text-justify">The privacy issue of deep learning and how safe our personal data is utilized has become a global concern. Cloud servers collect users' data from edge devices to train large neural network models and provide model services in turn. Such data transmission causes privacy leakage. We propose an edge-cloud training framework which divides the neural network into a small edge model and a large cloud model. We split the layer before uploading to the cloud into private channels and public channels. We propose a discrimination loss, and we theoretically prove that it can bound the differential privacy. We find the mutual information between public channels and private attributes is approximately 0 when we have significantly small discrimination loss. Experiments show that this framework can achieve nearly no loss of accuracy and no chance of person id attack inference on CelebA dataset. </p>
                 <!-- /Project Description -->
 
                 <!-- Technology -->
                 <div class="tags-block">
-                    <div class="block-title">
-                        <h3>Technology</h3>
-                    </div>
+                    <!--<div class="block-title">-->
+                        <!--<h3>Technology</h3>-->
+                    <!--</div>-->
                     <ul class="tags">
-                        <li><a>HTML5</a></li>
-                        <li><a>CSS3</a></li>
-                        <li><a>jQuery</a></li>
-                        <li><a>Ajax</a></li>
-                        <li><a>PHP5</a></li>
+                        <li><a>Pytorch</a></li>
+                        <li><a>Mutual Information</a></li>
+                        <li><a>Renyi Divergence</a></li>
+                        <li><a>Distribute Learning</a></li>
                     </ul>
                 </div>
                 <!-- /Technology -->
@@ -85,9 +79,8 @@
                     <div class="block-title">
                         <h3>Share</h3>
                     </div>
-                    <a href="#" target="_blank" class="btn"><i class="fa fa-facebook"></i> </a>
-                    <a href="#" target="_blank" class="btn"><i class="fa fa-twitter"></i> </a>
-                    <a href="#" target="_blank" class="btn"><i class="fa fa-dribbble"></i> </a>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://shiyinw.github.io/" target="_blank" class="btn"><i class="fa fa-facebook"></i> </a>
+                    <a href="http://www.twitter.com/share?url=https://shiyinw.github.io/" target="_blank" class="btn"><i class="fa fa-twitter"></i> </a>
                 </div>
                 <!-- /Share Buttons -->
             </div>
